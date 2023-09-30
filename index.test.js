@@ -21,3 +21,13 @@ test("multiplies 5 with 9 to equal 45", () => {
 test("divides 20 to 2 to equal 10", () => {
   expect(division(20, 2)).toBe(10);
 });
+
+describe("my beverage", () => {
+  test("is delicious", () => {
+    expect(myBeverage.delicious).toBeTruthy();
+  });
+
+  test("is not sour", () => {
+    expect(myBeverage.sour).toBeFalsy();
+  });
+});
