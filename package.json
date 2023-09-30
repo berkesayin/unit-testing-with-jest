@@ -4,7 +4,10 @@
   "description": "Unit Testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:covarage": "jest --coverage",
+    "test:watch": "jest --watch"
+
   },
   "author": "Berke Sayin",
   "license": "ISC",
