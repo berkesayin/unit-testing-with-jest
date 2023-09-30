@@ -5,6 +5,7 @@
 * [Getting Started With Jest](#get-started)
 * [Create Functions](#functions)
 * [Test Functions](#test-functions)
+* [Test Covarage](#test-covarage)
 
 > **Jest:** Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
@@ -139,3 +140,6 @@ describe("my beverage", () => {
 - Tests: 3 passed, 3 total 
 
 ![pic](images/test1.png)
+
+### Test Covarage <a name="test-covarage"></a>
+
