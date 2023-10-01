@@ -141,5 +141,24 @@ describe("my beverage", () => {
 
 ![pic](images/test1.png)
 
+- Tests: 1 failed, 2 passed, 3 total 
+
+![pic](images/test2.png)
 ### Test Covarage <a name="test-covarage"></a>
 
+- Jest can generate code coverage reports to help you identify which parts of your code are covered by tests and which are not. This is valuable for ensuring comprehensive test coverage.
+
+``yarn test:covarage`` or ``yarn jest --coverage``
+
+![pic](images/test3.png)
+
+##### Test (Code) Covarage
+
+- File 
+- Statements
+- Branch
+- Functions
+- Lines
+- Uncovered Line
+
+##### Following Test (Code) Covarage Result From Browser
